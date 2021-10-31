@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    
+    <title>Document</title>
+</head>
+<body onload="recordLoad()">
+    <div>
+        <div id="table">
+            <div id="header" style="display: flex;padding: 10px;background-color: #f2f2f2; margin: 20px auto;">
+                <div style="width:20%">S.No:</div>
+                <div style="width:20%">First Name</div>
+                <div style="width:20%">Last Name</div>
+                <div style="width:20%">City</div>
+                <div style="width:20%">Country</div>
+            </div>
+            <div id="row" style="margin: auto;padding: 10px;">
+                
+                    <div id="sNo" style="width:20%"></div>
+                    <div id="fName" style="width:20%"></div>
+                    <div id="lName" style="width:20%"></div>
+                    <div id="city" style="width:20%"></div>
+                    <div id="Country" style="width:20%"></div>
+               
+            </div>
+            <div style="display: flex;padding: 10px">
+                <div style="width: 20%;" id="newSno"> </div>
+                <div style="width: 20%;"> <input id="newFname" type="text" style="width: 70%;"></div>
+                <div style="width: 20%;"> <input id="newLname" type="text" style="width: 70%;"></div>
+                <div style="width: 20%;"> <input id="newcity" type="text" style="width: 70%;"></div>
+                <div style="width: 20%;"> <input id="newcountry" type="text" style="width: 70%;"></div>
+            </div>
+        </div>  
+        
+        <div style="display: flex;width: 80%;margin: 15px auto">
+            <div style="margin-left: 15px;"><button style="border:0;outline:none;width: 200px;padding: 15px;background-color: cadetblue;color: white;" onclick="addTop()">Add to Top</button></div>
+            <div style="margin-left: 15px;"><button style="border:0;outline:none;width: 200px;padding: 15px;background-color: goldenrod;color: white;" onclick="addBottom()">Add to Bottom</button></div>
+        </div>
+    </div>
+</body>
+</html>
